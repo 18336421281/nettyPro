@@ -9,7 +9,7 @@ import java.nio.channels.FileChannel;
 /**
  * @author fhs
  * 2020/4/24 17:55
- * 文件说明: 图片拷贝
+ * 文件说明: 图片拷贝  通道拷贝
  */
 public class NioFileChannel4 {
 
