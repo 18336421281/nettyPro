@@ -4,16 +4,8 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e45a323-4be4-4f6b-96c4-7e469d055ef8" name="Default" comment="NIO模型 / ServerSocket">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fhs/nio/NioClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fhs/nio/NioServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fhs/nio/ScatteringAndGatheringTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fhs/nio/groupchat/GroupChatServer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3.jpg" afterPath="$PROJECT_DIR$/3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+    <list default="true" id="3e45a323-4be4-4f6b-96c4-7e469d055ef8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nettyPro.iml" afterPath="$PROJECT_DIR$/nettyPro.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fhs/nio/NioFileChannel4.java" afterPath="$PROJECT_DIR$/src/main/java/com/fhs/nio/NioFileChannel4.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -514,7 +506,7 @@
       <updated>1587644574754</updated>
       <workItem from="1587644577422" duration="2385000" />
       <workItem from="1587696244810" duration="15682000" />
-      <workItem from="1587777610215" duration="5772000" />
+      <workItem from="1587777610215" duration="5866000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1587645366334</created>
@@ -537,11 +529,18 @@
       <option name="project" value="LOCAL" />
       <updated>1587722584751</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="NIO模型 / Server / Client 选择器 -&gt;  通道 -&gt; 缓冲 多路复用使用">
+      <created>1587784157586</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587784157586</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23839000" />
+    <option name="totallyTimeSpent" value="23933000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -623,7 +622,8 @@
     <MESSAGE value="NIO模型 / Buffer 和 File 通道使用" />
     <MESSAGE value="NIO模型 / ServerSocker" />
     <MESSAGE value="NIO模型 / ServerSocket" />
-    <option name="LAST_COMMIT_MESSAGE" value="NIO模型 / ServerSocket" />
+    <MESSAGE value="NIO模型 / Server / Client 选择器 -&gt;  通道 -&gt; 缓冲 多路复用使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="NIO模型 / Server / Client 选择器 -&gt;  通道 -&gt; 缓冲 多路复用使用" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -725,6 +725,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
           <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
